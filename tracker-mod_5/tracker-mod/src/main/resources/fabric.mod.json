@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "trackermod",
+  "version": "1.0.0",
+  "name": "Tracker Mod",
+  "description": "Press G to toggle lines to shulker boxes, chests, hoppers, rails, mob spawners, and pistons.",
+  "authors": ["You"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.trackermod.client.TrackerMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.4"
+  }
+}
